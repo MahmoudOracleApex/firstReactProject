@@ -1,0 +1,11 @@
+.About{
+    padding: 150px 0;
+}
+
+.About .iconStar::before {
+    right: 20px;
+}
+
+.About .iconStar::after {
+    left: 20px;
+}

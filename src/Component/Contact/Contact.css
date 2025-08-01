@@ -1,0 +1,43 @@
+.contact{
+    padding: 50px 0;
+}
+.contact .iconStar::before {
+    right: 20px;
+    background-color:#2c3e50 !important ;
+}
+
+.contact .iconStar::after {
+    left: 20px;
+    background-color:#2c3e50 ;
+}
+
+.form-control{
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0,0.3);
+    position: relative;
+    
+}
+
+.form-control:focus{
+    border-color: transparent;
+border-bottom: 1px solid rgba(0, 0, 0,0.3);
+    box-shadow: none;
+}
+
+.input-group label  {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+  transition: all 0.5s ease;
+}
+.contact .active{
+    background-color:transparent ! important;
+}
+
+.input-group input:not(:placeholder-shown) + label.active {
+  top: -25px;
+  font-size: 16px;
+  color: #1abc9c  ;
+  display: block;
+}

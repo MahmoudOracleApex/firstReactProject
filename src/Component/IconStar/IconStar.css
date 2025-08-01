@@ -1,0 +1,26 @@
+
+.iconStar{
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    z-index: 1000;
+}
+
+ .iconStar::before,
+.iconStar::after {
+    content:'';
+    background-color: white;
+    position: absolute;
+    bottom: 50%;
+    width: 100px;
+    height: 4px;
+    z-index: -1; 
+}
+
+.iconStar::before {
+    right: 50px;
+}
+
+.iconStar::after {
+    left: 50px;
+}
