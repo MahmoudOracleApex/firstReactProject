@@ -1,5 +1,5 @@
 import IconStar from '../IconStar/IconStar';
-import './portfolio.css'
+import './Portfolio.css'
 import { useState } from 'react';
 
 
