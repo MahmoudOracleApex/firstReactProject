@@ -9,7 +9,6 @@ import Navbar from './Component/NavBar/Navbar'
 import LayOut from './Component/LayOut/LayOut'
 import Home from './Component/Home/Home'
 import About from './Component/About/About'
-
 import Contact from './Component/Contact/Contact';
 import Portfolio from './Component/Portfolio/Portfolio';
 
